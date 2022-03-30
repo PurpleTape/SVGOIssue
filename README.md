@@ -8,7 +8,7 @@ Steps to repeat:
 
 1. Start the server `npm run serve`
 2. Go to the development page (the link is indicated in the console at startup)
-3. Open developer console and try to extract image links (like `/img/image.8ea55e89.svg` and `/img/image2.2f7be380.svg`)
+3. Open browser's developer console and try to extract image links (like `/img/image.8ea55e89.svg` and `/img/image2.2f7be380.svg`)
 4. In this case, the `image.svg` file will be optimized, and `image2.svg` will contain comments...
 
 This works on vue-cli, which uses webpack 5. The configuration is configured in the `vue.config.js` file. 
